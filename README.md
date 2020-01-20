@@ -1,11 +1,12 @@
 
 # COTD: Cat of the Day
+# COTD : El gato del dia
 
-PHP web application using JQuery Mobile that publishes a list of ordered items. 
+PHP web application using JQuery Mobile that publishes a list of ordered items.
 Each item has an image and trivia associated with it.
 
 Item lists are organised as themes. The application looks for an environment variable known as SELECTOR to set the theme.
-The default theme is SELECTOR="cats". By default, item content is sourced from the local data directory. 
+The default theme is SELECTOR="cats". By default, item content is sourced from the local data directory.
 If the environment variable SERVICE is set, the application will look for REST service at the IP address.
 
 ## Website
@@ -16,7 +17,7 @@ A sample running application is hosted on OpenShift Online V2.
 
 ## Usage
 
-The application is used to support the OpenShift MiniLabs series. 
+The application is used to support the OpenShift MiniLabs series.
 Look here for example usage of this application.
 
     http://StefanoPicozzi.blog
@@ -37,7 +38,7 @@ An example entry is as follows:
 
 ## AB Deployment Example
 
-To experiment with an A/B deployment scenario, follow the instructions in the blog entry at: https://blog.emergile.com/2016/10/07/ab-deployments-made-easy-with-openshift/  
+To experiment with an A/B deployment scenario, follow the instructions in the blog entry at: https://blog.emergile.com/2016/10/07/ab-deployments-made-easy-with-openshift/
 
 ## Running using Docker Toolbox
 
